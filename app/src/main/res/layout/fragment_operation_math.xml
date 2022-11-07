@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OperationMathFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:id="@+id/gameTitle"
+            android:layout_width="290dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:background="#A0ED47"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="OPERATION MATH"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <TextView
+            android:id="@+id/validationTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="TextView"
+            android:textSize="20sp"
+            android:visibility="visible" />
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <TextView
+                android:id="@+id/resultTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="default"
+                android:textColor="#2FBA09"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:visibility="invisible" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <Button
+                android:id="@+id/btnOp1"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:backgroundTint="#127C16"
+                android:text="Operasi 1"
+                android:textSize="24sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <Button
+                android:id="@+id/btnOp2"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:backgroundTint="#127C16"
+                android:text="Operasi 2"
+                android:textSize="24sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <Button
+                android:id="@+id/btnOp3"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:backgroundTint="#127C16"
+                android:text="Operasi 3"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>

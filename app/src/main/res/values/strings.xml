@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">VendettaMathGame</string>
+    <string name="xx">XX</string>
+    <string name="vendetta_game">VENDETTA GAME</string>
+    <string name="divisor">DIVISOR</string>
+    <string name="operation_math">OPERATION MATH</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
